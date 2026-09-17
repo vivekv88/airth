@@ -1,6 +1,6 @@
 import type { CreateJobPayload, Job, JobStatus } from '../types/job';
 
-const BASE_URL = 'https://airth-cgqa.onrender.com/';
+const BASE_URL = 'https://airth-cgqa.onrender.com';
 
 async function request<T>(
   path: string,
